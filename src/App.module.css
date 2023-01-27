@@ -1,0 +1,35 @@
+.box {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  margin: 0 50px 50px 0;
+  width: calc(50% - 95px);
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.item:last-child {
+  margin-right: 0;
+}
+.text {
+  padding: 20px;
+  font-size: 20px;
+}
+.text.text_error {
+  color: #ff0000;
+}
+.input {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.input input {
+  margin-left: 15px;
+}
